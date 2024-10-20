@@ -1,0 +1,118 @@
+*{
+    --overlay-color:rgba(0, 0, 0, 0.349) !important;
+    --main-color:#0078ff !important;
+
+}
+
+
+.overlay{
+    background-color: var(--overlay-color);
+    
+}
+.main-color{
+    background-color: var(--main-color);
+}
+.overlay-blue{
+    background-color: #0078ff;
+}
+
+header{
+    background-image: url(../imgs/intro-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-color: aliceblue;
+    background-attachment: fixed;
+
+}
+
+header div div{
+    font-size: 5rem;
+}
+
+#ABOUT .sec-3 h2::after{
+    content: '';
+    position: absolute;
+    width: 135px;
+    height: 3px;
+    background-color: var(--main-color);
+    left: 0%;
+    bottom: -5px;
+    
+
+}
+
+.row-cols-1 .card{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.row-cols-1 .card .icon{
+    width: 120px;
+    height: 120px;
+    font-size: 50px;
+    margin: auto;
+    background-color: #EEE;
+    border: 8px solid #0078ff;
+    border-radius: 50%;
+    padding-top: 15px;
+    transition: .5s;
+
+}
+
+.row-cols-1 .card:hover > .icon{
+    background-color: #0078ff;
+    border: 8px solid #0077ff09 ;
+    color: white;
+
+}
+
+.hamo{
+    background-image: url(../imgs/counters-bg.jpg);
+}
+
+#SERVICES .back-ground{
+    background-image: url(../imgs/counters-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+}
+
+#SERVICES .row-2 .icon{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    color: white;
+    font-size: 70px;
+    border: 10px solid;
+
+}
+
+.PORTFOLIO .row-2{
+    width: 100%;
+    background-image: url(../imgs/overlay-bg.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.CONTACT{
+    background-image: url(../imgs/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+}
+
+.CONTACT form ,.CONTACT .info {
+    position: relative;
+    z-index: 9;
+}
+
+
+
+
+
+
+
