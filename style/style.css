@@ -44,7 +44,7 @@ header div div{
 .row-cols-1 .card{
     position: relative;
     padding-top: 10px;
-    padding-bottom: 50px;
+    
 }
 .row-cols-1 .card .icon{
     width: 120px;
